@@ -11,7 +11,7 @@ import UpdatePrompt from './components/UpdatePrompt';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/projects/pianopal">
       <div className="min-h-screen bg-slate-950 dark-bg">
         <Header />
         <main className="pb-16 md:pb-0">

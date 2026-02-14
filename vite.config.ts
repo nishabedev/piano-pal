@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/projects/pianopal/',
   plugins: [
     react(),
     VitePWA({
@@ -12,12 +13,12 @@ export default defineConfig({
         name: 'Piano Pal - Piano Adventures Companion',
         short_name: 'Piano Pal',
         description: 'Watch YouTube tutorials for Piano Adventures book songs',
-        theme_color: '#1f2937',
-        background_color: '#111827',
+        theme_color: '#020617',
+        background_color: '#020617',
         display: 'standalone',
         orientation: 'any',
-        start_url: '/',
-        scope: '/',
+        start_url: '/projects/pianopal/',
+        scope: '/projects/pianopal/',
         icons: [
           {
             src: 'icons/icon-192.png',
