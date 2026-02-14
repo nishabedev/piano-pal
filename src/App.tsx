@@ -7,6 +7,7 @@ import VideoView from './components/VideoView';
 import SearchView from './components/SearchView';
 import FavoritesView from './components/FavoritesView';
 import RecentsView from './components/RecentsView';
+import AboutView from './components/AboutView';
 import UpdatePrompt from './components/UpdatePrompt';
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="/search" element={<SearchView />} />
             <Route path="/favorites" element={<FavoritesView />} />
             <Route path="/recents" element={<RecentsView />} />
+            <Route path="/about" element={<AboutView />} />
           </Routes>
         </main>
         <BottomTabBar />
