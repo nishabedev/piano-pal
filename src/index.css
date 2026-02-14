@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 m-0;
+    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    color: inherit;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.35);
+}
+
+/* Light theme */
+html.light-theme,
+html.light-theme body {
+  background-color: #faf8f6 !important;
+  color: #1e293b !important;
+}
+
+html.light-theme .dark-bg {
+  background-color: #faf8f6 !important;
+}
+
+html.light-theme .dark-surface {
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+}
+
+html.light-theme .dark-surface-raised {
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+html.light-theme .dark-text {
+  color: #1e293b !important;
+}
+
+html.light-theme .dark-text-secondary {
+  color: #64748b !important;
+}
+
+html.light-theme .dark-text-muted {
+  color: #94a3b8 !important;
+}
+
+html.light-theme .dark-border {
+  border-color: #e2e8f0 !important;
+}
+
+html.light-theme .dark-divide > :not([hidden]) ~ :not([hidden]) {
+  border-color: #f1f5f9 !important;
+}
+
+html.light-theme .dark-hover:hover {
+  background-color: #f8fafc !important;
+}
+
+html.light-theme .dark-input {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+  color: #1e293b !important;
+}
+
+html.light-theme .dark-input::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Light theme header */
+html.light-theme .dark-header {
+  background-color: rgba(250, 248, 246, 0.85) !important;
+  border-color: #e2e8f0 !important;
+}
+
+/* Light theme bottom bar */
+html.light-theme .dark-bottom-bar {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-color: #e2e8f0 !important;
+}
+
+/* Keep level colors readable in light mode */
+html.light-theme .level-text-primer { color: #e11d48 !important; }
+html.light-theme .level-text-1 { color: #2563eb !important; }
+html.light-theme .level-text-2a { color: #7c3aed !important; }
+html.light-theme .level-text-2b { color: #0d9488 !important; }
+
+/* Safe area for mobile bottom bar */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
