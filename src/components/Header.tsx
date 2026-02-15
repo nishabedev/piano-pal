@@ -17,8 +17,19 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2.5">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
-            <svg className="w-4.5 h-4.5 text-white" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 14H7v-4h2v2h2v-2h2v2h2v-2h2v4zm0-6h-2V9h-2v2h-2V9H9v2H7V7h10v4z"/>
+            <svg className="w-5 h-5 text-white" viewBox="0 0 280 160" fill="none">
+              <rect width="280" height="160" rx="8" fill="white"/>
+              <line x1="40" y1="0" x2="40" y2="160" stroke="#d1d5db" strokeWidth="2"/>
+              <line x1="80" y1="0" x2="80" y2="160" stroke="#d1d5db" strokeWidth="2"/>
+              <line x1="120" y1="0" x2="120" y2="160" stroke="#d1d5db" strokeWidth="2"/>
+              <line x1="160" y1="0" x2="160" y2="160" stroke="#d1d5db" strokeWidth="2"/>
+              <line x1="200" y1="0" x2="200" y2="160" stroke="#d1d5db" strokeWidth="2"/>
+              <line x1="240" y1="0" x2="240" y2="160" stroke="#d1d5db" strokeWidth="2"/>
+              <rect x="27" y="0" width="26" height="100" rx="4" fill="#1e1b3a"/>
+              <rect x="67" y="0" width="26" height="100" rx="4" fill="#1e1b3a"/>
+              <rect x="147" y="0" width="26" height="100" rx="4" fill="#1e1b3a"/>
+              <rect x="187" y="0" width="26" height="100" rx="4" fill="#1e1b3a"/>
+              <rect x="227" y="0" width="26" height="100" rx="4" fill="#1e1b3a"/>
             </svg>
           </div>
           <span className="text-lg font-extrabold text-white dark-text tracking-tight">
