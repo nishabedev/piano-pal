@@ -109,7 +109,7 @@ html.light-theme .dark-bottom-bar {
 }
 
 /* Keep level colors readable in light mode */
-html.light-theme .level-text-primer { color: #e11d48 !important; }
+html.light-theme .level-text-primer { color: #d97706 !important; }
 html.light-theme .level-text-1 { color: #2563eb !important; }
 html.light-theme .level-text-2a { color: #7c3aed !important; }
 html.light-theme .level-text-2b { color: #0d9488 !important; }

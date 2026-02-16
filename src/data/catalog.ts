@@ -376,13 +376,13 @@ export const levelColors: Record<string, {
   accent: string;
 }> = {
   'Primer': {
-    bg: 'bg-rose-500/10',
-    bgHover: 'hover:bg-rose-500/20',
-    border: 'border-rose-500/20',
-    text: 'text-rose-400',
+    bg: 'bg-amber-500/10',
+    bgHover: 'hover:bg-amber-500/20',
+    border: 'border-amber-500/20',
+    text: 'text-amber-400',
     textClass: 'level-text-primer',
-    gradient: 'from-rose-500 to-pink-600',
-    accent: 'bg-rose-500',
+    gradient: 'from-amber-500 to-orange-600',
+    accent: 'bg-amber-500',
   },
   'Level 1': {
     bg: 'bg-blue-500/10',

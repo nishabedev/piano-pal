@@ -63,6 +63,31 @@ export default function AboutView() {
         </ul>
       </div>
 
+      <div className="dark-surface bg-slate-900/50 rounded-2xl border border-slate-800/50 dark-border p-5 mb-5">
+        <h2 className="text-sm font-bold uppercase tracking-wider text-indigo-400 mb-3">Add to Home Screen</h2>
+        <p className="text-sm text-slate-300 dark-text-secondary leading-relaxed mb-3">
+          Install Piano Pal as an app on your device for quick access:
+        </p>
+        <div className="space-y-3">
+          <div>
+            <p className="text-xs font-bold text-slate-400 dark-text-muted uppercase tracking-wider mb-1">iPhone / iPad</p>
+            <ol className="text-sm text-slate-300 dark-text-secondary space-y-1 list-decimal ml-4">
+              <li>Open this site in Safari</li>
+              <li>Tap the Share button (square with arrow)</li>
+              <li>Scroll down and tap <span className="font-semibold text-white dark-text">Add to Home Screen</span></li>
+            </ol>
+          </div>
+          <div>
+            <p className="text-xs font-bold text-slate-400 dark-text-muted uppercase tracking-wider mb-1">Android</p>
+            <ol className="text-sm text-slate-300 dark-text-secondary space-y-1 list-decimal ml-4">
+              <li>Open this site in Chrome</li>
+              <li>Tap the three-dot menu</li>
+              <li>Tap <span className="font-semibold text-white dark-text">Add to Home screen</span></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
       <div className="dark-surface bg-slate-900/50 rounded-2xl border border-slate-800/50 dark-border p-5">
         <h2 className="text-sm font-bold uppercase tracking-wider text-indigo-400 mb-3">Contact</h2>
         <p className="text-sm text-slate-300 dark-text-secondary leading-relaxed">

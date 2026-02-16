@@ -33,7 +33,7 @@ export default function SongList({ book, selectedSongId, onSelectSong }: SongLis
 
             <div className="flex-1 min-w-0">
               <div className={`text-sm font-semibold truncate ${
-                isSelected ? 'text-indigo-300' : 'text-slate-200 dark-text'
+                isSelected ? 'text-indigo-300 dark-text' : 'text-slate-200 dark-text'
               }`}>
                 {song.title}
               </div>

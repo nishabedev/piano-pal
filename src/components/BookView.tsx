@@ -79,7 +79,7 @@ export default function BookView() {
       {!isMobile ? (
         <div className="flex flex-1 overflow-hidden">
           {/* Song list */}
-          <div className="w-80 border-r border-slate-800/50 dark-border overflow-y-auto bg-slate-900/30">
+          <div className="w-80 border-r border-slate-800/50 dark-border overflow-y-auto bg-slate-900/30 dark-surface">
             <SongList
               book={book}
               selectedSongId={selectedSong?.id}
